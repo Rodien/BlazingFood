@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazingFood.Shared", "Share
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingFoodTestsAcceptance", "BlazingFoodTestsAcceptance\BlazingFoodTestsAcceptance.csproj", "{3D0CAB77-833A-46D1-AD0B-EAB9F2458770}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingFoodTestsUnit", "BlazingFoodTestsUnit\BlazingFoodTestsUnit.csproj", "{6BBE2E82-9661-48B2-A505-A4D68ADF0AD1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingFoodTestsIntegration", "BlazingFoodTestsIntegration\BlazingFoodTestsIntegration.csproj", "{6B743A44-3251-420F-B58A-E9565A517D7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{3D0CAB77-833A-46D1-AD0B-EAB9F2458770}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D0CAB77-833A-46D1-AD0B-EAB9F2458770}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D0CAB77-833A-46D1-AD0B-EAB9F2458770}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6BBE2E82-9661-48B2-A505-A4D68ADF0AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6BBE2E82-9661-48B2-A505-A4D68ADF0AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6BBE2E82-9661-48B2-A505-A4D68ADF0AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6BBE2E82-9661-48B2-A505-A4D68ADF0AD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B743A44-3251-420F-B58A-E9565A517D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B743A44-3251-420F-B58A-E9565A517D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B743A44-3251-420F-B58A-E9565A517D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B743A44-3251-420F-B58A-E9565A517D7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
