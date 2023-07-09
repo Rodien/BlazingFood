@@ -1,2 +1,2 @@
 # BlazingFood
- Blazor Playgrond 
+ Blazor Playground 
