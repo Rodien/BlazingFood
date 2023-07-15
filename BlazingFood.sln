@@ -9,11 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazingFood.Client", "Clien
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazingFood.Shared", "Shared\BlazingFood.Shared.csproj", "{359835C5-496D-4EB5-BC80-6C3A0D982B5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingFoodTestsAcceptance", "BlazingFoodTestsAcceptance\BlazingFoodTestsAcceptance.csproj", "{3D0CAB77-833A-46D1-AD0B-EAB9F2458770}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazingFoodTestsAcceptance", "BlazingFoodTestsAcceptance\BlazingFoodTestsAcceptance.csproj", "{3D0CAB77-833A-46D1-AD0B-EAB9F2458770}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingFoodTestsIntegration", "BlazingFoodTestsIntegration\BlazingFoodTestsIntegration.csproj", "{6B743A44-3251-420F-B58A-E9565A517D7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazingFoodTestsIntegration", "BlazingFoodTestsIntegration\BlazingFoodTestsIntegration.csproj", "{6B743A44-3251-420F-B58A-E9565A517D7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingFoodInfrastructureBuild", "BlazingFoodInfrastructureBuild\BlazingFoodInfrastructureBuild.csproj", "{AF481275-7DA4-4709-B26D-E9AB0221984E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazingFoodInfrastructureBuild", "BlazingFoodInfrastructureBuild\BlazingFoodInfrastructureBuild.csproj", "{AF481275-7DA4-4709-B26D-E9AB0221984E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
