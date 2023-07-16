@@ -1,6 +1,6 @@
 using BlazingFood.Client;
-using BlazingFood.Client.Services.Foods;
-using BlazingFood.Client.Services.Foods.FoodViews;
+using BlazingFood.Client.Services.FoodRegistration;
+using BlazingFood.Client.Services.FoodRegistration.FoodViews;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 

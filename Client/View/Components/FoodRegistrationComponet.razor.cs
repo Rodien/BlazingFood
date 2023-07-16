@@ -1,5 +1,4 @@
-﻿using BlazingFood.Client.Services.Foods.FoodViews;
-using BlazingFood.Client.View.Bases;
+﻿using BlazingFood.Client.Services.FoodRegistration.FoodViews;
 using Microsoft.AspNetCore.Components;
 
 namespace BlazingFood.Client.View.Components
