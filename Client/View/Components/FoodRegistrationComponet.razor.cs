@@ -1,15 +1,12 @@
-﻿using BlazingFood.Client.View.Bases;
+﻿using BlazingFood.Client.Services.Foods.FoodViews;
+using BlazingFood.Client.View.Bases;
+using Microsoft.AspNetCore.Components;
 
 namespace BlazingFood.Client.View.Components
 {
     public partial class FoodRegistrationComponet
     {
-        public TextBoxBase TextBox { get; set; }
-        public void ButtonClicked()
-        {
-            string textBoxValue = this.TextBox.Value;
-
-            Console.WriteLine(textBoxValue);
-        }
+        [Inject]
+        public IFoodViewService FoodViewService { get; set; }
     }
 }

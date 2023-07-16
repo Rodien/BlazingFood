@@ -1,4 +1,6 @@
 using BlazingFood.Client;
+using BlazingFood.Client.Services.Foods;
+using BlazingFood.Client.Services.Foods.FoodViews;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
@@ -13,6 +15,8 @@ namespace BlazingFood.Client
             builder.RootComponents.Add<HeadOutlet>("head::after");
 
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+            builder.Services.AddScoped<IFoodViewService, FoodViewService>();
+            builder.Services.AddScoped<IFoodService, FoodService>();
 
             await builder.Build().RunAsync();
         }
